@@ -45,6 +45,8 @@ int main(int argc, char **argv)
 			}
 		}
 	}
-	free(gvars.lineptr); free_l(head); fclose(fp);
+	free(gvars.lineptr);
+	free_l(head);
+	fclose(fp);
 	return (gvars.ret_val);
 }
